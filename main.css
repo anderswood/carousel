@@ -1,0 +1,37 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height: 300px;
+}
+
+#right-arrow {
+  transform: rotate(180deg);
+}
+
+.arrow:hover {
+  background: rgba(238, 238, 238, 0.5)
+}
+
+.slide1 {
+  background-image: url('https://placebear.com/450/300')
+}
+
+.slide1 #left-arrow {
+  visibility: hidden;
+}
+
+.slide3 #right-arrow {
+  visibility: hidden;
+}
+
+.slide2 {
+  background-image: url('https://placekitten.com/450/300');
+  transition: margin-left 1s ease;
+  margin-left: -75px;
+}
+
+.slide3 {
+  background-image: url('https://www.hearingdogs.org.uk/globalassets/sponsor/jade/jade-hero-450-300.jpg')
+}
